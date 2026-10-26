@@ -1,0 +1,63 @@
+<section class="blk-micro" id="microagulhamento">
+  <div class="wrap">
+    <div class="blk-micro__cab" data-reveal>
+      <p class="blk-micro__eyebrow">Microagulhamento inteligente</p>
+      <h2 class="blk-micro__titulo">A agulha abre o caminho. O ativo decide o resultado.</h2>
+      <p class="blk-micro__lead" data-acende>A caneta Derma Pen cria microcanais na pele, e é por eles que entra o ativo escolhido para o seu objetivo. Por isso o microagulhamento da Derma Solução não é um procedimento só: muda o que vai no microcanal conforme a pele que chega.</p>
+    </div>
+    <div class="blk-micro__motivo"><!--motivo:rule--></div>
+    <ul class="blk-micro__ativos">
+      <li class="blk-micro__ativo" data-reveal style="--d:0ms"><span class="blk-micro__ic"><!--icone:molecula--></span><p class="blk-micro__nome">PDRN e exossomos</p><p class="blk-micro__para">Regeneração da pele</p></li>
+      <li class="blk-micro__ativo" data-reveal style="--d:80ms"><span class="blk-micro__ic"><!--icone:pele--></span><p class="blk-micro__nome">Fatores de crescimento e colágeno</p><p class="blk-micro__para">Firmeza e textura</p></li>
+      <li class="blk-micro__ativo" data-reveal style="--d:160ms"><span class="blk-micro__ic"><!--icone:gota--></span><p class="blk-micro__nome">Ácido hialurônico</p><p class="blk-micro__para">Hidratação profunda</p></li>
+      <li class="blk-micro__ativo" data-reveal style="--d:240ms"><span class="blk-micro__ic"><!--icone:sol--></span><p class="blk-micro__nome">Vitamina C e despigmentantes</p><p class="blk-micro__para">Manchas e tom da pele</p></li>
+      <li class="blk-micro__ativo" data-reveal style="--d:320ms"><span class="blk-micro__ic"><!--icone:folha--></span><p class="blk-micro__nome">Rosa mosqueta</p><p class="blk-micro__para">Cicatrizes e marcas</p></li>
+      <li class="blk-micro__ativo" data-reveal style="--d:400ms"><span class="blk-micro__ic"><!--icone:rosto--></span><p class="blk-micro__nome">Combinação sob medida</p><p class="blk-micro__para">Poros, olheiras, oleosidade, acne</p></li>
+    </ul>
+    <div class="blk-micro__ritmo" data-reveal>
+      <p class="blk-micro__ritmo-n"><span data-count="3">3</span> a <span data-count="4">4</span></p>
+      <p class="blk-micro__ritmo-txt">sessões, em geral, com 30 dias entre uma e outra: é o tempo que a pele leva para produzir o colágeno novo. A quantidade certa para você sai da avaliação.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-micro{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 9%,var(--bg))}
+.blk-micro__cab{max-width:44rem}
+.blk-micro__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-micro__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-micro__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-micro__motivo{margin-block:var(--sp-4);color:var(--pulse)}
+.blk-micro__ativos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2);grid-template-columns:minmax(0,1fr)}
+.blk-micro__ativo{
+  display:grid;grid-template-columns:2.75rem minmax(0,1fr);column-gap:var(--sp-2);align-items:center;
+  padding:var(--sp-3);background:var(--bg);border-radius:var(--radius);
+  border:1px solid color-mix(in srgb,var(--pulse) 35%,transparent);
+}
+.blk-micro__ic{grid-row:span 2;width:2.75rem;height:2.75rem;display:grid;place-items:center;color:var(--brand)}
+.blk-micro__ic svg{width:1.75rem;height:1.75rem}
+.blk-micro__nome{margin:0;font-family:var(--f-display);font-size:1.25rem;line-height:1.2;color:var(--ink)}
+.blk-micro__para{
+  margin:.2rem 0 0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;
+  color:color-mix(in srgb,var(--ink) 60%,transparent);
+}
+.blk-micro__ritmo{
+  margin-top:var(--sp-5);display:grid;gap:var(--sp-2);align-items:baseline;
+  padding-top:var(--sp-4);border-top:1px solid color-mix(in srgb,var(--pulse) 45%,transparent);
+}
+.blk-micro__ritmo-n{
+  margin:0;font-family:var(--f-display);font-style:italic;font-size:clamp(3.5rem,14vw,7rem);line-height:.9;color:var(--brand);
+}
+.blk-micro__ritmo-txt{margin:0;max-width:34rem;font-size:1.125rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+@media (min-width:640px){.blk-micro__ativos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1000px){
+  .blk-micro__ativos{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .blk-micro__ritmo{grid-template-columns:auto minmax(0,1fr);column-gap:var(--sp-5)}
+}
+</style>

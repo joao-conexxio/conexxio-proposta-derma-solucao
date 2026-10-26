@@ -1,0 +1,304 @@
+{
+  "slug": "derma-solucao",
+  "negocio": {
+    "nome": "Estética Derma Solução",
+    "logo": "brand/logo.jpg",
+    "whatsapp": "5548991248451",
+    "telefone": "(48) 99124-8451",
+    "unidades": [
+      {
+        "bairro": "Centro · Florianópolis",
+        "endereco": "Rua dos Ilhéus, 38 – Edifício Aplub Visconde, Centro, Florianópolis – SC",
+        "telefone": "(48) 99124-8451",
+        "horario": "Segunda a sexta, 8h às 20h · Sábado, 8h às 17h · Só com hora marcada"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8C5F0A",
+    "brand2": "#5E3F06",
+    "ink": "#212121",
+    "bg": "#FFFFFF",
+    "pulse": "#F7B52B",
+    "radius": "2px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Manrope",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "wow": {
+    "assinatura": "gradient-mesh"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Microagulhamento",
+            "href": "#microagulhamento"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Estética facial regenerativa",
+        "h1": "Pele avaliada de perto e tratada sem pressa",
+        "lead": "Na Estética Derma Solução, a Leila começa por uma avaliação presencial e monta o protocolo pelo que você quer resolver: manchas, poros, acne, firmeza ou hidratação. Atendimento com hora marcada, no Edifício Aplub Visconde.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Atendimento com hora marcada",
+        "imagem": "midia/leila-dermapen.jpg",
+        "imagemAlt": "Leila, fundadora da Estética Derma Solução, segurando a caneta Derma Pen e um frasco de ativo",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Limpeza de pele regenerativa",
+          "Microagulhamento",
+          "Dermaplaning",
+          "Pele de porcelana",
+          "Terapia de enzimas",
+          "Ourolifting",
+          "Melasma",
+          "Radiofrequência",
+          "Drenagem pós-operatória facial"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "A clínica em quatro números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "186",
+            "rotulo": "avaliações de clientes",
+            "contar": 186
+          },
+          {
+            "valor": "10 anos",
+            "rotulo": "de atuação em estética"
+          },
+          {
+            "valor": "2 h",
+            "rotulo": "de limpeza de pele regenerativa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Quem cuida da sua pele",
+        "texto": [
+          "A Derma Solução é uma empresa de família, e quem atende é a fundadora. A Leila é formada em estética, cosmetologia e cosmiatria e está terminando a graduação em Biomedicina.",
+          "São dez anos tratando pele no centro de Florianópolis, sempre com hora marcada, para que cada atendimento tenha o tempo que o protocolo pede."
+        ],
+        "imagem": "midia/leila.jpg",
+        "imagemAlt": "Retrato da Leila, fundadora da Estética Derma Solução"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Todos começam pela avaliação. É nela que se decide qual protocolo faz sentido e quantas sessões ele pede.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele regenerativa",
+            "descricao": "Limpeza profunda com extração manual, alta frequência, máscara calmante, massagem facial e hidratação com ativos regenerativos.",
+            "duracao": "Cerca de 2 horas",
+            "icone": "gota"
+          },
+          {
+            "nome": "Microagulhamento inteligente",
+            "descricao": "Microcanais abertos com a caneta Derma Pen recebem o ativo escolhido para o seu caso. Indicado para manchas, poros dilatados, cicatrizes de acne e firmeza.",
+            "sessoes": "3 a 4, com 30 dias de intervalo",
+            "icone": "pele"
+          },
+          {
+            "nome": "Microagulhamento Colágeno UP",
+            "descricao": "A versão com PDRN, exossomos e fatores de crescimento, voltada a estimular colágeno e melhorar textura, firmeza e olheiras.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Terapia de enzimas",
+            "descricao": "Máscaras de enzimas sem ácido e sem agulha, para clarear manchas e prolongar a hidratação. Uma opção para quem tem pele sensível.",
+            "icone": "folha"
+          },
+          {
+            "nome": "Melasma, acne, cicatrizes e rosácea",
+            "descricao": "Protocolos que associam microagulhamento a ativos regeneradores e despigmentantes, definidos depois de entender a origem do problema.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Revitalização Ouro e Ourolifting",
+            "descricao": "Máscara de ouro com ativos de hidratação profunda, acompanhada de massagem facial. Para devolver viço à pele cansada.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/microagulhamento.html"
+    },
+    {
+      "custom": "blocos/limpeza.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "A clínica atende só com hora marcada. O caminho até a primeira sessão é curto.",
+        "itens": [
+          {
+            "titulo": "Conversa pelo WhatsApp",
+            "texto": "Conte o que incomoda na sua pele e combine o melhor dia. Segunda a sexta até as 20h, sábado até as 17h.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação presencial",
+            "texto": "Antes de qualquer procedimento, a Leila examina a pele de perto e entende o que você quer resolver.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Protocolo do seu caso",
+            "texto": "Você sai sabendo quais procedimentos fazem sentido, em que ordem e quantas sessões eles pedem.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Sessões no intervalo certo",
+            "texto": "Tratamentos como o microagulhamento pedem cerca de 30 dias entre uma sessão e outra. As datas são combinadas com você.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as clientes escrevem no Google",
+        "itens": [
+          {
+            "texto": "Tudo num ambiente muito profissional e acolhedor.",
+            "autor": "Cliente da clínica",
+            "contexto": "Avaliação no Google · 5 estrelas"
+          },
+          {
+            "texto": "Pontualidade e profissionalismo nota 1000 pra você, Leila. Super indico.",
+            "autor": "Cliente da clínica",
+            "contexto": "Avaliação no Google · 5 estrelas"
+          },
+          {
+            "texto": "Amei a experiência. Ótimo atendimento, ótimo lugar, boa localização.",
+            "autor": "Cliente da clínica",
+            "contexto": "Avaliação no Google · 5 estrelas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Preciso fazer avaliação antes do procedimento?",
+            "r": "Sim. A avaliação é presencial e serve para entender o seu objetivo e o estado da pele antes de indicar qualquer protocolo."
+          },
+          {
+            "p": "Quantas sessões de microagulhamento vou precisar?",
+            "r": "Em geral, de 3 a 4, com 30 dias de intervalo. O número certo para o seu caso é definido na avaliação."
+          },
+          {
+            "p": "Tenho pele sensível. Existe opção sem ácido e sem agulha?",
+            "r": "Sim. A terapia de enzimas usa máscaras sem ácido, não é invasiva e não dói. Ela trabalha manchas, hidratação e viço."
+          },
+          {
+            "p": "Quanto tempo dura a limpeza de pele?",
+            "r": "A limpeza regenerativa leva cerca de duas horas, porque vai além da extração: inclui máscara calmante, massagem facial e hidratação."
+          },
+          {
+            "p": "Posso ir sem horário marcado?",
+            "r": "Não. A clínica atende só com agendamento, de segunda a sexta das 8h às 20h e aos sábados das 8h às 17h. É só chamar no WhatsApp."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "Na Rua dos Ilhéus, 38, no Edifício Aplub Visconde, centro de Florianópolis."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No centro de Florianópolis, na Rua dos Ilhéus",
+        "imagem": "midia/sala-espera.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp o que você quer tratar. A Leila encontra um horário para ver a sua pele de perto.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          },
+          {
+            "texto": "Abrir no Maps",
+            "href": "https://www.google.com/maps/search/?api=1&query=Est%C3%A9tica%20Derma%20Solu%C3%A7%C3%A3o%20Florian%C3%B3polis"
+          }
+        ],
+        "aviso": "Estética Derma Solução · Florianópolis – SC. Resultados variam de pessoa para pessoa; a indicação de cada tratamento é feita na avaliação."
+      }
+    }
+  ]
+}

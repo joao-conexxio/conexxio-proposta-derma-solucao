@@ -1,0 +1,58 @@
+<section class="blk-limpeza" id="limpeza">
+  <div class="wrap blk-limpeza__grade">
+    <div class="blk-limpeza__lado">
+      <div class="blk-limpeza__cab" data-reveal>
+        <p class="blk-limpeza__eyebrow">A limpeza de pele da casa</p>
+        <h2 class="blk-limpeza__titulo">Duas horas na maca, nove etapas sem atalho</h2>
+        <p class="blk-limpeza__lead" data-acende>A limpeza de pele regenerativa não termina na extração. Depois de limpar, a pele é acalmada, massageada e nutrida, para a pele sair da sala cuidada, e não só limpa.</p>
+      </div>
+      <figure class="blk-limpeza__foto" data-reveal>
+        <!--foto:midia/painel-bancada.jpg|Bancada de apoio da Estética Derma Solução, com chaleira rosa, planta e o painel dourado com o nome da clínica na parede-->
+      </figure>
+    </div>
+    <ol class="blk-limpeza__lista">
+      <li class="blk-limpeza__item" data-reveal style="--d:0ms"><span class="blk-limpeza__n">01</span><div><p class="blk-limpeza__nome">Higienização</p><p class="blk-limpeza__txt">Retira maquiagem, protetor e a oleosidade do dia.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:60ms"><span class="blk-limpeza__n">02</span><div><p class="blk-limpeza__nome">Esfoliação enzimática</p><p class="blk-limpeza__txt">Solta as células mortas sem lixar a pele.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:120ms"><span class="blk-limpeza__n">03</span><div><p class="blk-limpeza__nome">Emoliência</p><p class="blk-limpeza__txt">Amolece cravos e impurezas para a extração ser mais leve.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:180ms"><span class="blk-limpeza__n">04</span><div><p class="blk-limpeza__nome">Vapor de ozônio</p><p class="blk-limpeza__txt">Abre os poros e prepara a próxima etapa.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:240ms"><span class="blk-limpeza__n">05</span><div><p class="blk-limpeza__nome">Extração manual</p><p class="blk-limpeza__txt">Cravos e impurezas removidos um a um, à mão.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:300ms"><span class="blk-limpeza__n">06</span><div><p class="blk-limpeza__nome">Alta frequência</p><p class="blk-limpeza__txt">Passada logo depois da extração, sobre a pele recém-limpa.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:360ms"><span class="blk-limpeza__n">07</span><div><p class="blk-limpeza__nome">Máscara calmante</p><p class="blk-limpeza__txt">Reduz a vermelhidão que a extração deixa.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:420ms"><span class="blk-limpeza__n">08</span><div><p class="blk-limpeza__nome">Massagem facial</p><p class="blk-limpeza__txt">Feita com calma, perto do fim, depois que a pele já foi acalmada.</p></div></li>
+      <li class="blk-limpeza__item" data-reveal style="--d:480ms"><span class="blk-limpeza__n">09</span><div><p class="blk-limpeza__nome">Nutrição e hidratação</p><p class="blk-limpeza__txt">Ativos regenerativos para fechar. Se quiser, os lábios também recebem hidratação.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-limpeza{padding-block:var(--sp-section)}
+.blk-limpeza__grade{display:grid;gap:var(--sp-5)}
+.blk-limpeza__cab{max-width:36rem}
+.blk-limpeza__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-limpeza__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-limpeza__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-limpeza__foto{margin:var(--sp-4) 0 0;overflow:hidden;border-radius:var(--radius)}
+.blk-limpeza__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%}
+.blk-limpeza__lista{list-style:none;margin:0;padding:0;counter-reset:none}
+.blk-limpeza__item{
+  display:grid;grid-template-columns:3.25rem minmax(0,1fr);gap:var(--sp-2);
+  padding-block:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--pulse) 45%,transparent);
+}
+.blk-limpeza__item:last-child{border-bottom:1px solid color-mix(in srgb,var(--pulse) 45%,transparent)}
+.blk-limpeza__n{
+  font-family:var(--f-display);font-style:italic;font-size:2rem;line-height:1;color:var(--brand);
+}
+.blk-limpeza__nome{margin:0;font-family:var(--f-display);font-size:1.35rem;line-height:1.2;color:var(--ink)}
+.blk-limpeza__txt{margin:.25rem 0 0;color:color-mix(in srgb,var(--ink) 70%,transparent)}
+@media (min-width:900px){
+  .blk-limpeza__grade{grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:var(--sp-6,5rem);align-items:start}
+  .blk-limpeza__lado{position:sticky;top:6rem}
+  .blk-limpeza__foto img{aspect-ratio:5/4}
+}
+</style>
